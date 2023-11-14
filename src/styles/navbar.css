@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Calistoga', sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px; /* Fixed height for the navbar */
+    padding: 0 20px; /* Horizontal padding */
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+    align-items: center;
+    margin-left: auto; /* This will push your nav items to the right */
+    align-items: center; /* This ensures vertical center alignment */
+    transition: transform 1s; /* Added for smooth transitioning */
+}
+
+.nav-links li a{
+    color: #000;
+    text-align: center;
+    font-family: Calistoga;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    text-decoration: none;
+}
+
+.nav-links li a:hover{
+    color: #FE2759;
+    text-decoration: underline;
+}
+
+.nav-btn {
+    visibility: hidden; /* Hide button by default */
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear; /* Transition for smooth fade in/out */
+    font-size: 1.8rem;
+    padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+    color: #000;
+}
+
+/* The close button inside the navbar must be always visible */
+.nav-close-btn {
+    display: none; /* Hidden by default, will be shown in the media query below */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+    color: #000;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 1024px) {
+    .nav {
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        flex-direction: column; /* Stack the links vertically */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--mainColor); /* Use the color variable from :root */
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out; /* Smooth transition for sliding in */
+        padding-top: 80px; /* Don't overlap with the top of the viewport */
+        gap: 0;
+        justify-content: start;
+        background-color: #FE2759;
+    }
+
+    .nav-links.responsive_nav {
+        transform: translateX(0);
+    }
+
+    .nav-btn {
+        visibility: visible; /* Show hamburger button */
+        opacity: 1;
+        display: block; /* Show button as block */
+        color: #000;
+        top: 20px;
+        right: 20px; 
+    }
+
+    .nav-close-btn {
+        display: block; /* Show the close button when menu is open */
+        z-index: 9999;
+    }
+    
+    /* Adjust the link size for mobile view */
+    .nav-links li {
+        font-size: 1.5rem;
+        color: white;
+        padding: 10px 20px;
+
+    }
+}

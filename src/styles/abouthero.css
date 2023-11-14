@@ -1,0 +1,109 @@
+.about-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 3%;
+}
+
+.content-container{
+    border-radius: 25px;
+    background: rgba(182, 195, 240, 0.30);
+    /* width: 1299px;
+    height: 583px; */
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    /* padding: 0rem 2rem 5rem 5rem; */
+    padding: 2rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 1rem;
+}
+
+.left h5{
+    color: #7E00FF;
+    font-family: Elsie Swash Caps;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82.2%; /* 16.44px */
+}
+
+.left h1{
+    color: #000;
+    font-family: Bebas Neue;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 60px */
+}
+
+.left p{
+    color: #000;
+    font-family: Bentham;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 22px */
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right img{
+    /* margin-top: 20%; */
+    align-items: center;
+}
+
+.content-container1{
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(157, 98, 217, 0.30);
+    display: flex;
+    align-items: center;
+    /* padding: 0rem 2rem 5rem 5rem; */
+    gap: 9rem;
+    padding: 2rem;
+}
+
+.content-container2{
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: rgba(254, 39, 89, 0.30);
+    display: flex;
+    align-items: center;
+    /* padding: 0rem 2rem 5rem 5rem; */
+    padding: 2.9rem;
+    gap: 4rem;
+}
+
+.store {
+    background: url("../assets/16692184_5738134\ 1.png"), lightgray 0px -447.624px / 100% 667.039% no-repeat;
+    mix-blend-mode: hard-light;
+}
+@media only screen and (max-width: 1050px){
+    .content-container,
+    .content-container1,
+    .content-container2{
+        flex-direction: column;
+    }
+
+    .right{
+        flex-direction: column;
+    }
+    .right img{
+        width: 100%;
+        height: auto;
+        margin-left: -10%;
+    }
+}
