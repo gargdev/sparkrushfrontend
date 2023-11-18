@@ -1,3 +1,10 @@
+.hero-parent{
+    background-image: url("../assets/image\ 2.png"); /* Path to your image */
+    background-size: cover; /* This will make sure your image covers the whole area */
+    background-repeat: no-repeat; /* This will prevent the image from repeating */
+    background-position: center; /* This will center your image in the page */
+    padding: 10rem;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -7,7 +14,7 @@
 }
 
 .hero h2{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-family: Elsie Swash Caps;
     font-size: 40px;
@@ -25,7 +32,7 @@ span{
 }
 
 .hero p{
-    color: #000;
+    color: #fff;
     text-align: center;
     font-family: Montserrat;
     font-size: 25px;

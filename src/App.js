@@ -1,11 +1,12 @@
 // App.js
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import LoadingScreen from './components/LoadingScreen';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/About'; // Import your AboutPage component
-import FaqPage from './pages/Faq'; // Import your FaqPage component
-import Navbar from './components/Navbar';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoadingScreen from "./components/LoadingScreen";
+import HomePage from "./pages/HomePage";
+import AboutPage from "./pages/About"; // Import your AboutPage component
+import FaqPage from "./pages/Faq"; // Import your FaqPage component
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   const [loading, setLoading] = useState(true);

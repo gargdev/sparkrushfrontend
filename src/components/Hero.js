@@ -7,7 +7,7 @@ import "../styles/hero.css";
 
 const Hero = () => {
   return (
-    <>
+    <div className="hero-parent">
       <div className="container hero">
         <h2 className="primary-heading">Doorstep Delivery</h2>
         <h2>
@@ -30,7 +30,7 @@ const Hero = () => {
           <img src={homeapp} alt="" className="img3" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
