@@ -13,7 +13,7 @@ const AboutHero = () => {
         <div className="container left">
           <h5>About us</h5>
           <h1>
-            Welcome to <span>SparkRush</span>, where innovation meets{" "}
+            Welcome to SparkRush, where innovation meets{" "}
             <span>CONVINIENCE!</span>
           </h1>
           <p>
@@ -40,7 +40,7 @@ const AboutHero = () => {
         </div>
         <div className="right">
           <h1>
-            What Sets Us <span>APART</span>
+            What Sets Us APART
           </h1>
           <ul>
             <li>

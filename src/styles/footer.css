@@ -127,9 +127,9 @@
     gap: 0.5rem;
 }
 
-/* .footer-right img{
-    width: 2%;
-} */
+.footer-right img{
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 1050px){
     .footer{
