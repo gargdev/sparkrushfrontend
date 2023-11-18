@@ -14,7 +14,7 @@ const AboutHero = () => {
           <h5>About us</h5>
           <h1>
             Welcome to SparkRush, where innovation meets{" "}
-            <span>CONVINIENCE!</span>
+            CONVINIENCE!
           </h1>
           <p>
             At SparkRush, we're on a mission to revolutionize the way you
