@@ -3,7 +3,7 @@
     background-size: cover; /* This will make sure your image covers the whole area */
     background-repeat: no-repeat; /* This will prevent the image from repeating */
     background-position: center; /* This will center your image in the page */
-    padding: 10rem;
+    padding: 8.8rem;
 }
 .hero{
     display: flex;
