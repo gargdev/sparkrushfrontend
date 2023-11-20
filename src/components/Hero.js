@@ -1,5 +1,5 @@
 import React from "react";
-import store from "../assets/store.png";
+// import store from "../assets/store.png";
 import techbag from "../assets/techbag.png";
 import office from "../assets/officetech.png";
 import homeapp from "../assets/homeapp.png";
