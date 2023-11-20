@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/faqhero.css"
+import "../styles/faqhero.css";
 import Banglore from "../assets/Group 8.png";
 
 const FaqHero = () => {
@@ -27,6 +27,7 @@ const FaqHero = () => {
               </p>
             </div>
           </div>
+          <hr />
           <div className="faqs">
             <div className="container faq-left">
               <h5>Q3: Where is SparkRush available?</h5>
@@ -45,6 +46,7 @@ const FaqHero = () => {
               </p>
             </div>
           </div>
+          <hr />
           <div className="faqs">
             <div className="container faq-left">
               <h5>Q5: How can I stay updated on SparkRush's launch?</h5>
@@ -63,6 +65,7 @@ const FaqHero = () => {
               </p>
             </div>
           </div>
+          <hr />
           <div className="faqs">
             <div className="container faq-left">
               <h5>Q7: Is my personal information secure with SparkRush?</h5>
@@ -75,17 +78,18 @@ const FaqHero = () => {
             <div className="container faq-right">
               <h5>Q8: How can I contact SparkRush for more information?</h5>
               <p>
-                 For any inquiries or additional information, feel free to reach
-                out to our customer support team at [sparkrush2023@gmail.com].
+                For any inquiries or additional information, feel free to reach
+                out to our customer support team at sparkrush2023@gmail.com.
                 We're here to assist you!
               </p>
             </div>
           </div>
+          <hr />
           <div className="faqs">
             <div className="container faq-left">
               <h5>Q9: Are there any special launch promotions?</h5>
               <p>
-                 Yes! We have exciting launch promotions planned for our early
+                Yes! We have exciting launch promotions planned for our early
                 supporters. Follow us on social media and sign up for our
                 newsletter to be the first to know about exclusive deals.
               </p>
@@ -93,7 +97,7 @@ const FaqHero = () => {
             <div className="container faq-right">
               <h5>Q10: When is SparkRush officially launching?</h5>
               <p>
-                 We're putting the finishing touches on SparkRush and gearing up
+                We're putting the finishing touches on SparkRush and gearing up
                 for our official launch. Keep an eye on our website and social
                 media channels for the big reveal!
               </p>

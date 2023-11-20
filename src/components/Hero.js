@@ -20,9 +20,9 @@ const Hero = () => {
           deliveries right at your doorstep.
         </p>
 
-        <div className="store1">
+        {/* <div className="store1">
           <img src={store} alt="" />
-        </div>
+        </div> */}
 
         <div className="container productus">
           <img src={techbag} alt="" className="img1" />
