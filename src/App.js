@@ -7,7 +7,7 @@ import AboutPage from "./pages/About"; // Import your AboutPage component
 import FaqPage from "./pages/Faq"; // Import your FaqPage component
 import Navbar from "./components/Navbar";
 import "./App.css";
-import Privacy from "./pages/PrivacyPage";
+import PrivacyPage from "./pages/PrivacyPage";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -31,7 +31,7 @@ function App() {
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/faq" element={<FaqPage />} />
-              <Route path="/privacy" element={<Privacy />} />
+              <Route path="/privacy" element={<PrivacyPage />} />
             </Routes>
           </>
         )}

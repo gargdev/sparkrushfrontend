@@ -96,20 +96,7 @@ const AboutHero = () => {
       <div className="appliances">
         <img src={appliances} alt="" />
       </div>
-      <div className="container hero">
-        <h2 className="primary-heading">Doorstep Delivery</h2>
-        <h2>
-          {" "}
-          <span>"Get Ready, Bengaluru! SparkRush is Coming Soon!"</span>{" "}
-        </h2>
-        <p>
-          Exciting times ahead! SparkRush is gearing up to transform the way you
-          receive your favorite electronics. Be prepared for lightning-fast
-          deliveries right at your doorstep.
-        </p>
-
-        <div className="store">{/* <img src={store} alt="" /> */}</div>
-      </div>
+      
     </div>
   );
 };
