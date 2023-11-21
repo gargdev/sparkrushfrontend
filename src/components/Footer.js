@@ -31,8 +31,8 @@ const Footer = () => {
           </div>
 
           <div className="container footer-middle2">
-            <h2>Privacy Policy</h2>
-            <h2>Terms & Conditions</h2>
+            <h2><a href="/privacy">Privacy Policy</a></h2>
+            <h2><a href="/privacy">Terms & Conditions</a></h2>
           </div>
         </div>
 

@@ -1,0 +1,48 @@
+.policies{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    gap: 2rem;
+    margin-bottom: 15%;
+}
+
+.policies p{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.policies h5{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.policy-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.policy-list li{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.last-update{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
